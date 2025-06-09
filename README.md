@@ -27,16 +27,16 @@
 
 二、团队展示载体
 1.团队网站\主页
-- 首页：展示LOGO、队名、口号，配动态AI工具操作动图（Canva制作）。
-- 成员页：每人头像+职责+一句AI相关“技能宣言”（如“用Midjourney凿开创意脑洞” ）。
-- 方案页：A4方案核心内容提炼，嵌入LOGO设计过程（Midjourney指令+迭代稿）、管理规则可视化流程图（Canva绘制）。
+- 首页：展示LOGO、队名、口号，配动态AI工具操作动图。
+- 成员页：每人头像+职责+一句AI相关“技能宣言”。
+- 方案页：A4方案核心内容提炼，嵌入LOGO设计过程。
 
 2. 团队海报（Canva设计）
 
 ![Uploading _cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=2197165974855803990&skey=@crypt_ec8c4620_bf3112b3facbd40df9c6c7ad2c2f9997&mmweb_appid=wx_webfilehelper (1).jpg…]()
 
 
-三、团队介绍PPT（Keynote/PPT制作，侧重逻辑与视觉统一）
+三、团队介绍PPT
 
 1. 封面：LOGO+队名+“AI创新先锋队，开启协作新篇” 。
 2. 成员页：头像+职责+趣味标签（结合AI角色，如“Prompt工程师”“创意催化师” ）。
