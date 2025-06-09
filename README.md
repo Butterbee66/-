@@ -33,10 +33,12 @@
 
 2. 团队海报（Canva设计）
 
-![Uploading _cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=2197165974855803990&skey=@crypt_ec8c4620_bf3112b3facbd40df9c6c7ad2c2f9997&mmweb_appid=wx_webfilehelper (1).jpg…]()
+![11](https://github.com/user-attachments/assets/21ee3989-58f3-4793-a85f-7fa4a7ba199f)
+
 
 
 三、团队介绍PPT
+[比奇堡汇报.pptx](https://github.com/user-attachments/files/20652183/default.pptx)
 
 1. 封面：LOGO+队名+“AI创新先锋队，开启协作新篇” 。
 2. 成员页：头像+职责+趣味标签
