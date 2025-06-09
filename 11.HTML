@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我们的团队</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .team-member {
+            transition: transform 0.3s;
+            margin-bottom: 30px;
+        }
+        .team-member:hover {
+            transform: translateY(-10px);
+        }
+        .member-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #f8f9fa;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .section-title {
+            position: relative;
+            margin-bottom: 50px;
+        }
+        .section-title:after {
+            content: "";
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background: #0d6efd;
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">团队名称</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">关于我们</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">团队成员</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <header class="bg-light py-5">
+        <div class="container text-center">
+            <h1 class="display-4">欢迎认识我们的团队</h1>
+            <p class="lead">一群充满激情和创造力的人</p>
+        </div>
+    </header>
+
+    <!-- 关于我们 -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center section-title">关于我们</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>我们是来自不同背景的专业人士，因共同的目标而聚集在一起。我们相信团队合作的力量，致力于为客户提供最优质的服务和解决方案。</p>
+                    <p>我们的核心价值观是创新、诚信和卓越。在过去的几年里，我们已经帮助了数百家客户实现了他们的目标。</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://via.placeholder.com/600x400" alt="团队工作照" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 团队成员 -->
+    <section id="team" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center section-title">团队成员</h2>
+            <div class="row">
+                <!-- 成员1 -->
+                <div class="col-md-4 text-center team-member">
+                    <img src="https://via.placeholder.com/150" alt="成员1" class="member-img mb-3">
+                    <h4>张三</h4>
+                    <p class="text-primary">创始人 & CEO</p>
+                    <p>10年行业经验，技术专家，领导团队发展方向</p>
+                    <div>
+                        <a href="#" class="text-decoration-none mx-1"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-decoration-none mx-1"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-decoration-none mx-1"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                
+                <!-- 成员2 -->
+                <div class="col-md-4 text-center team-member">
+                    <img src="https://via.placeholder.com/150" alt="成员2" class="member-img mb-3">
+                    <h4>李四</h4>
+                    <p class="text-primary">技术总监</p>
+                    <p>全栈开发专家，负责技术架构和团队管理</p>
+                    <div>
+                        <a href="#" class="text-decoration-none mx-1"><i class="fab fa-github"></i></a>
+                        <a href="#" class="text-decoration-none mx-1"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <!-- 成员3 -->
+                <div class="col-md-4 text-center team-member">
+                    <img src="https://via.placeholder.com/150" alt="成员3" class="member-img mb-3">
+                    <h4>王五</h4>
+                    <p class="text-primary">设计总监</p>
+                    <p>UI/UX设计师，负责产品视觉和用户体验</p>
+                    <div>
+                        <a href="#" class="text-decoration-none mx-1"><i class="fab fa-dribbble"></i></a>
+                        <a href="#" class="text-decoration-none mx-1"><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 可以添加更多团队成员 -->
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center section-title">联系我们</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="您的姓名">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="您的邮箱">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="您的留言"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2023 团队名称. 保留所有权利.</p>
+            <div class="social-links">
+                <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 脚本 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
