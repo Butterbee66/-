@@ -1,4 +1,4 @@
-一、A4方案设计（利用AI工具：Canva可画、豆包、Midjourney ）
+一、A4方案设计
 
 1. LOGO
 
